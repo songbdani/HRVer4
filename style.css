@@ -181,6 +181,7 @@ img {
     overflow: hidden;
     position: relative;
     letter-spacing: 0.1em;
+	text-decoration: none;
 }
 
 section,
@@ -1678,7 +1679,46 @@ PCグローバルナビ
 
 
 @media screen and (max-width:1100px) {
-	
+
+header h1 {
+	left: 5px;
+	top: 5px;
+}
+
+.hero02__title {
+    font-size: 33px;
+	width: 100%;
+    text-align: center;
+	margin-left: 65px;
+} 
+
+.hero02 h2 {
+    font-size: 13px;
+	width: 95%;
+    text-align: center;
+	margin-left: 50px;
+}
+
+.hero02 .img {
+    float: right;
+    margin-right: 90px;
+    position: relative;
+	width: 55%;
+    margin-top: 110px;
+}
+
+.hero02 .gif {
+    width: 380px;
+    position: absolute;
+    top: 48px;
+    left: 74px;
+}
+
+.common__ttl-style {
+    margin-left: -200px;
+}
+
+
 img {
 	max-width: 100%;
 	height: auto;
@@ -2127,10 +2167,32 @@ header .h_box ul.h_lang {
 
 
 @media screen and (max-width:760px) {
+
 	
 header h1 {
 	left: 5px;
 	top: 5px;
+}
+
+.hero02__title {
+    font-size: 33px;
+	width: 100%;
+    text-align: center;
+	margin-left: 75px;
+} 
+
+.hero02 h2 {
+    font-size: 11px;
+	width: 95%;
+    text-align: center;
+	margin-left: 70px;
+}
+
+.hero02 .img {
+    float: right;
+    margin-right: -190px;
+    position: relative;
+    margin-top: 50px;
 }
 
 .top_img {
@@ -2338,6 +2400,35 @@ textarea,
 input {
 	max-width: 360px;
 }
+
+.common__ttl-style {
+    margin-right: 400px;
+    font-size: 20px;
+}
+
+#problemIllust {
+    width: 300%;
+    margin-top: -20px;
+	margin-right: -60px;
+}
+
+.serviceVer {
+    margin-left: 30px;
+    margin-top: 160px;
+    width: 85%;
+}
+
+h2 {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#problemArea .contentWrapper ul li a {
+	margin-top: 20px;
+	text-align: center;
+    font-size: 17px;
+}
+
 
 
 }
