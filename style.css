@@ -182,6 +182,8 @@ img {
     position: relative;
     letter-spacing: 0.1em;
 	text-decoration: none;
+	text-align: center;
+    margin-top: 30px;
 }
 
 section,
@@ -487,7 +489,7 @@ header .h_tel i {
 }
 
 h2 {
-	font-size: 28px;
+	font-size: 35px;
 	line-height: 40px;
 	color: #751e1e;
 	margin-bottom: 20px;
@@ -495,7 +497,7 @@ h2 {
 	padding-bottom: 5px;
 	position: relative;
 	display: block;
-	font-weight: normal;
+	font-weight: bold;
 }
 h2 i {
 	padding-right: 10px;
@@ -808,7 +810,6 @@ h2.h2_title_01 span {
 
 .cont_list .list_box {
 	width: 32%;
-	background-color: #EEE;
 	box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 5px 0px;
 	-webkit-box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 5px 0px;
 	-moz-box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 5px 0px;
@@ -834,8 +835,6 @@ h2.h2_title_01 span {
 	padding-top: 20px;
 	background-color: #FFF;
 	border-bottom-width: 4px;
-	border-bottom-style: solid;
-	border-bottom-color: #cf6868;
 	font-size: 22px;
 	line-height: 30px;
 	padding-bottom: 10px;
@@ -1572,7 +1571,6 @@ PCグローバルナビ
 	position: absolute;
 	bottom: 3px;
 	left: 82px;
-	color: #3987A4;
 }
 
 #g_navi li a:hover,
@@ -1686,10 +1684,10 @@ header h1 {
 }
 
 .hero02__title {
-    font-size: 33px;
 	width: 100%;
     text-align: center;
-	margin-left: 65px;
+    margin-left: 85px;
+    font-weight: bold;
 } 
 
 .hero02 h2 {
@@ -1701,7 +1699,7 @@ header h1 {
 
 .hero02 .img {
     float: right;
-    margin-right: 90px;
+    margin-right: 20px;
     position: relative;
 	width: 55%;
     margin-top: 110px;
@@ -1715,9 +1713,24 @@ header h1 {
 }
 
 .common__ttl-style {
-    margin-left: -200px;
+    font-size: 40px;
 }
 
+#problemIllust {
+    width: max-content;
+    margin-top: -20px;
+	margin-right: -120px;
+}
+
+#problemArea .contentWrapper ul li {
+    display: block;
+    margin: 0 25px;
+}
+
+.serviceVer {
+    margin-left: 50px;
+    margin-top: -70px;
+}
 
 img {
 	max-width: 100%;
@@ -2402,7 +2415,7 @@ input {
 }
 
 .common__ttl-style {
-    margin-right: 400px;
+    margin-right: 600px;
     font-size: 20px;
 }
 
@@ -2436,6 +2449,22 @@ h2 {
 
 	
 @media screen and (max-width:400px) {
+
+
+.hero02 .img {
+    float: none;
+    margin-right: 90px;
+    position: relative;
+    width: 40%;
+    padding-top: 550px;
+}
+
+.hero02 .gif {
+	width: 286px;
+    position: absolute;
+    top: 583px;
+    left: 53px;
+}
 
 .content .news ul li a {
 	font-size: 12px;
